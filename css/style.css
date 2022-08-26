@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.paddingTB {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footerBg {
+  background-color: rgb(12, 85, 12);
+}
+.footerBg h3 {
+  color: rgb(102, 255, 0);
+  text-align: center;
+}
+.col-lg-12,
+.col-lg-6 {
+  padding-right: 0;
+  padding-left: 0;
+}
+.paddingT {
+  padding-top: 50px;
+}
+.centrar {
+  text-align: center;
+}
+.paddingLR {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.ico_foo {
+  transition: 1s;
+}
+.ico_foo:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+.redesSociales {
+  transition: 1s;
+}
+.redesSociales:hover {
+  color: rgb(30, 30, 153);
+  cursor: pointer;
+}
+@media only screen and (max-width: 767px) {
+  .footerFlex {
+    display: flex;
+    flex-direction: column;
+  }
+}
